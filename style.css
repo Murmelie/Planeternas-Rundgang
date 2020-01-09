@@ -1,0 +1,125 @@
+﻿body{
+	background:url("Bilder/lens-flare-2.png") black;
+	margin: 0 auto;
+}
+/*
+Här kommenterar jag. Igen, hej hej :);
+*/
+#allt{
+	width: 1200px;
+	margin: 0 auto;
+	padding:15px;
+	background: #fff;
+}
+header{
+	width: 1200px;
+	height: 115px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 12px #000;
+	background-color: black;
+}
+header h1, header li{
+	font-family: Juice ITC;
+	padding: 0 0 0 40px;
+	color: white;
+}
+#list, header h1{
+	float: left;
+}
+header img{
+	height: 100px;
+	margin: 7px 30px 0 0;
+	float: right;
+}
+#list li{
+	float: left;
+	list-style-type: none;
+	margin: 30px 0 0 50px;
+	font-size: 16pt;
+}
+#list li a{
+	color: #fff;
+	text-decoration: none;
+}
+#list li a.active{
+	border-bottom: 1px solid #fff;
+}
+.himmel{
+	width: auto;
+	margin: 60px 50px 0 50px;
+}
+#bilder_hem{
+	width: 1200px;
+	margin: 10px auto;
+	background: #fff;
+}
+#bilder_planeter{
+	width: 1200px;
+	margin: 10px auto;
+	background: #fff;
+}
+#bilder_planeter img{
+	float: left;
+	width: 900px;
+	margin: 20px 150px 0 150px;
+}
+#bilder_månar{
+	width: 1200px;
+	margin: 10px auto;
+	background: #fff;
+}
+#bilder_månar img{
+	float: left;
+	height: 230px;
+	margin: 6px 6px 0 6px;
+}
+.spec{
+	padding: 25px 70px 0 70px;
+}
+#txt_start{
+	margin: 58px auto;
+	padding: 0 20px 0 20px;
+	line-height: 2;
+	width: 600px;
+	text-align: center;
+}
+#txt_hem{
+	margin: 58px auto 0 auto;
+	padding: 0 20px 0 20px;
+	border: 1px solid black;
+	line-height: 1.5;
+	width: 1080px;
+}
+#txt_planeter{
+	margin: 58px auto;
+	padding: 0 20px 0 20px;
+	border: 1px solid black;
+	line-height: 1.5;
+	width: 1080px;
+}
+#txt_månar{
+	margin: 58px auto;
+	padding: 0 20px 0 20px;
+	border: 1px solid black;
+	line-height: 1.5;
+	width: 1080px;
+}
+footer{
+	width: 1200px;
+	height: 100px;
+	margin: 15px auto 0 auto;
+  	box-shadow: 0px 0px 12px #000;
+	background-color: #00284d;
+	clear:all;
+	text-align: center;
+	color: white;
+}
+#hem_footer{
+	margin: 100px auto 0 auto;
+}
+#planeter_footer{
+	margin: 800px auto 0 auto;
+}
+#månar_footer{
+	margin: 400px auto 0 auto;
+}
